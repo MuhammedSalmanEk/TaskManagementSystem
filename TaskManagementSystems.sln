@@ -3,10 +3,48 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1706.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "..\..\Documents\dotnetprojects\TaskManagementSystem\API\API.csproj", "{8B764DE3-DD92-498A-8EA5-F066A1965D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "..\..\Documents\dotnetprojects\Application\Application.csproj", "{5D19800A-CAC4-4820-BF57-813533BED347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\..\Documents\dotnetprojects\Infrastructure\Infrastructure.csproj", "{2F14A685-B56B-49E0-B423-6F2B663873C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\..\Documents\dotnetprojects\TaskManagementSystem\Tests\Tests.csproj", "{8C395319-56B1-438E-9265-98ADABC244EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{972B9993-9E76-4556-8836-8470A43F5187}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		..\..\Documents\dotnetprojects\TaskManagementSystem\README.md = ..\..\Documents\dotnetprojects\TaskManagementSystem\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B64C7C33-D015-4EDA-AF25-604B5027F2C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B764DE3-DD92-498A-8EA5-F066A1965D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B764DE3-DD92-498A-8EA5-F066A1965D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B764DE3-DD92-498A-8EA5-F066A1965D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B764DE3-DD92-498A-8EA5-F066A1965D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D19800A-CAC4-4820-BF57-813533BED347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D19800A-CAC4-4820-BF57-813533BED347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D19800A-CAC4-4820-BF57-813533BED347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D19800A-CAC4-4820-BF57-813533BED347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F14A685-B56B-49E0-B423-6F2B663873C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F14A685-B56B-49E0-B423-6F2B663873C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F14A685-B56B-49E0-B423-6F2B663873C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F14A685-B56B-49E0-B423-6F2B663873C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C395319-56B1-438E-9265-98ADABC244EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C395319-56B1-438E-9265-98ADABC244EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C395319-56B1-438E-9265-98ADABC244EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C395319-56B1-438E-9265-98ADABC244EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B64C7C33-D015-4EDA-AF25-604B5027F2C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64C7C33-D015-4EDA-AF25-604B5027F2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64C7C33-D015-4EDA-AF25-604B5027F2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64C7C33-D015-4EDA-AF25-604B5027F2C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
