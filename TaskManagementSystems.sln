@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\..\Documents\dotnetprojects\TaskManagementSystem\README.md = ..\..\Documents\dotnetprojects\TaskManagementSystem\README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{B64C7C33-D015-4EDA-AF25-604B5027F2C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{BB5A31CF-8CF9-494D-BAC2-2A6D08F19E1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{8C395319-56B1-438E-9265-98ADABC244EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C395319-56B1-438E-9265-98ADABC244EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C395319-56B1-438E-9265-98ADABC244EA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B64C7C33-D015-4EDA-AF25-604B5027F2C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B64C7C33-D015-4EDA-AF25-604B5027F2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B64C7C33-D015-4EDA-AF25-604B5027F2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B64C7C33-D015-4EDA-AF25-604B5027F2C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5A31CF-8CF9-494D-BAC2-2A6D08F19E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5A31CF-8CF9-494D-BAC2-2A6D08F19E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5A31CF-8CF9-494D-BAC2-2A6D08F19E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5A31CF-8CF9-494D-BAC2-2A6D08F19E1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
